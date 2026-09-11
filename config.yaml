@@ -1,0 +1,3 @@
+app: demo
+debug: true
+port: 8080

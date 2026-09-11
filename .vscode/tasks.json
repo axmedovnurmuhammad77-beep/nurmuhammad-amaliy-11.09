@@ -1,0 +1,50 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Inspect Git repository",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"status",
+				"--short"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Initialize and commit Git repository",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"init"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Add GitHub remote",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"remote",
+				"add",
+				"origin",
+				"git@github.com:axmedovnurmuhammad77-beep/nurmuhammad-amaliy-11.09.git"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Commit assignment files",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"add",
+				"."
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

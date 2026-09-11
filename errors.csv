@@ -1,0 +1,3 @@
+id,status,message
+2,error,Connection failed
+3,error,Timeout
